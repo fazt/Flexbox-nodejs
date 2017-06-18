@@ -1,0 +1,39 @@
+/* Company */
+.company {
+  background: $third-color;
+  text-align: justify;
+  color: #fff;
+  padding: 10px 0;
+
+  h4 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+    line-height: 2em;
+  }
+
+  input[type="text"] {
+    padding: 20px;
+    text-align: center;
+  }
+  button {
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    border: 0;
+    &:hover {
+      opacity: .5;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .company {
+    padding: 30px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,36 @@
+
+.features {
+  padding: 40px;
+  margin: 0;
+
+  h2 {
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+
+  .card {
+    border: 3px solid #000;
+    margin: 4px;
+    padding: 8px;
+  }
+
+  .fa {
+    font-size: 60px;
+    color: #56a79a;
+
+    &.fa-heart {
+      color: red;
+    }
+    &.fa-telegram {
+      color: #0088cc;
+    }
+    &.fa-btc {
+      color: #FF9900;
+    }
+
+    &:hover {
+      opacity: .7;
+    }
+  }
+}

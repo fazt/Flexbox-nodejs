@@ -1,0 +1,35 @@
+/* CONTACT */
+.contact {
+  form{
+    background: #333;
+    color: #fff;
+    padding: 10px;
+
+    button {
+      width: 50%;
+      padding: 10px 0;
+      border: 0;
+      background: #222;
+      color: #fff;
+      &:hover {
+        background: #fff;
+        color: #000;  
+      }
+    }
+    label {
+      text-transform: uppercase;
+    }
+  }
+  input[type="text"] {
+    padding: 4px;
+    width: 50%;
+    text-align: center;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  textarea {
+    text-align: center;
+    width: 50%;
+    height: 100px;
+  }
+}

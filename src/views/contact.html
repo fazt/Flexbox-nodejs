@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%= title %></title>
+    <% include partials/_head %>
+  <body>
+
+    <% include partials/_header %>
+
+  <!-- SUBHEADER -->
+
+  <section class="sub-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>Contact</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- MAIN PAGE -->
+<section class="contact">
+  <div class="container">
+    <div class="row center-xs">
+      <div class="col-xs-12">
+        <h2>
+          <span class="primary-text">Get</span> In Touch
+        </h2>
+        <form>
+          <div class="">
+            <label for="name">Name: </label><br>
+            <input type="text" name="name" value=""/>
+          </div>
+          <div class="">
+            <label for="email">Email: </label><br>
+            <input type="text" name="email" value=""/>
+          </div>
+          <div class="">
+            <label for="message">Message: </label><br>
+            <textarea name="message"></textarea>
+          </div>
+          <button type="submit" name="button">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Company -->
+  <section class="company">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <h4>About</h4>
+          <ul>
+            <li><i class="fa fa-phone"></i> (617) 555-55555</li>
+            <li><i class="fa fa-envelope"></i> contact@faztweb.com</li>
+            <li><i class="fa fa-map"></i> 400 Main St, Boston MA</li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <h4>About Us</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <h4>NewsLetter</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos excepturi ea eligendi dolores iure, at nulla dolor iste dolore officiis porro nostrum corporis quis! Aperiam libero voluptatum nobis, laudantium numquam.</p>
+          <form action="">
+            <input type="text" name="email" placeholder="Enter your Email"/>
+            <button type="button" name="button">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <% include partials/_footer %>
+  </body>
+</html>

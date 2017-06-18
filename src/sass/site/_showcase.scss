@@ -1,0 +1,40 @@
+.showcase {
+  background: url('../images/showcase.jpeg') no-repeat center center;
+  background-size: cover;
+  border-bottom: 1px solid #56a79a;
+
+  .row {
+    height: 100vh;
+  }
+
+  .showcase-content {
+    background: $third-color;
+    color: #fff;
+    padding: 40px;
+    opacity: .9;
+  }
+
+  h1 {
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+
+  p {
+    color: #ccc;
+    margin: 0;
+  }
+
+}
+
+@media (max-width:800px) {
+  .showcase h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .showcase .showcase-content {
+    padding: 40px 10px;
+  }
+}

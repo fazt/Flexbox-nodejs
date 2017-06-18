@@ -1,0 +1,16 @@
+/* services */
+.services {
+  ul li {
+    list-style: none;
+    padding: 20px;
+
+    &:nth-child(odd){
+      background: #56a79a;
+      color: #fff;
+    }
+    &:nth-child(even){
+      background: #333;
+      color: #fff;
+    }
+  }
+}
