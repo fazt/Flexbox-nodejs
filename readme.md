@@ -39,7 +39,7 @@ this structure is generated with the tree tool, `tree -I 'node_modules'`:
 ## Social Accounts
 - WebSite: http://www.faztweb.com
 - Blog: http://blog.faztweb.com
-- Facebook: https://web.facebook.com/FaztJs
+- Facebook: https://web.facebook.com/FaztTech/
 - Twitter: https://twitter.com/FaztTech
 - Patreon: https://www.patreon.com/Fazt
-- Grupo de Facebook, Réd de Codigo: https://web.facebook.com/groups/177047792707557/
+- Facebook Group(Spanish Developer Commuiy), Réd de Codigo: https://web.facebook.com/groups/177047792707557/
