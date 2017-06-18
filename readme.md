@@ -35,3 +35,11 @@ this structure is generated with the tree tool, `tree -I 'node_modules'`:
 - [UiGradients](https://uigradients.com/), in the past we had to have a image as
   gradiendt, but now we can use CSS3, and this page is a tool that allows you to
   choose your color, and it will generate the CSS Code.
+
+## Social Accounts
+- WebSite: http://www.faztweb.com
+- Blog: http://blog.faztweb.com
+- Facebook: https://web.facebook.com/FaztJs
+- Twitter: https://twitter.com/FaztTech
+- Patreon: https://www.patreon.com/Fazt
+- Grupo de Facebook, Réd de Codigo: https://web.facebook.com/groups/177047792707557/
